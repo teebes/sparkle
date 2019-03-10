@@ -2,7 +2,7 @@
 
 (def items-db [
   ["HEAVY_COMBO" [
-        "a strange insectoid helm"
+        "a strange, insectoid helm"
         "a rimmed round helmet"
         "a pair of riveted chainmail sleeves"
         "a pair of polioshed gold plated vambaces"
@@ -26,12 +26,10 @@
     ["LIGHT_COMBO" [
         "a light brown hood of finely-spun cloth"
         "a set of finely-spun cloth sleeves"
-        "a fine pair of light buckskin gloves"
+        "a fine pair of light, buckskin gloves"
         "a finely-tailored white shirt"
-
         "a set of loose cloth breeches"
-
-        "a pair of light well-oiled leather boots"
+        "a pair of light, well-oiled leather boots"
     ]]
     ["DODGE" [
         "a shoufa with a black veil"
@@ -88,6 +86,7 @@
     ["CLOAKS" [
         "a coat bearing the ancient symbol of the Aes Sedai"
         "a cloak of shifting colors"
+        "a bright red robe"
     ]]
 
     ["WEAPONS" [
@@ -100,10 +99,10 @@
         "a razored falcata"
         "a bronze chain scourge"
         "a gargantuan gilded bastard sword"
-        "a dark barbed flail"
+        "a dark, barbed flail"
         "a set of steel sai"
         "a curved clear dagger"
-        "a sharp red stone dagger"
+        "a sharp, red stone dagger"
         "a bone club"
         "a saw-toothed axe"
         "a ruby-worked rapier"
@@ -120,12 +119,14 @@
         "a cup of thready brown tea"
         "a cup of thick syrup"
         "a vial filled with a dark red liquid"
+        "a tinful of a black, foul liquid"
     ]]
+    ["MISC" []]
 ])
 
 
 
-(def initial-data "20. a strange insectoid helm
+(def initial-data "20. a strange, insectoid helm
 47. a rimmed round helmet
 something
 48. a rimmed round helmet

@@ -63,11 +63,16 @@
 )
 
 (defn transform-items [catalog chest-index] 
-    (make-groups
-        (make-chest-list 
-            chest-index
-            (make-catalog-index catalog)
-        )))
+    (let [order (map first catalog)
+          f (fn [a b] (compare (.indexOf order (first a))
+                       (.indexOf order (first b))))
+          group (make-groups
+                  (make-chest-list 
+                      chest-index
+                      (make-catalog-index catalog)))
+          sorted (sort f group)
+          ]
+          sorted))
 
 (re-frame/reg-sub
   ::chest-processed
